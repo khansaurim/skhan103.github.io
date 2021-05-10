@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Lora);
+
+*{
+    font-family: Lora
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.Top{
+    background-color: #008080;
+}
+
+.Name{
+    font-size: 2em;
+    margin: 0;
+    text-align: center;
+}
+
+.sections li{
+    display: inline;
+}
+
+.sections{
+    text-align: center;
+    font-size: 1em;
+}
+
+.sections a{
+    display: inline-block;
+    padding: .5em;
+    color: black;
+    text-decoration: none;    
+}
+
+.sections a:hover{
+    background-color: rgba(192, 192, 192, 0.5);
+}
+
+.title{
+    font-size: 2.5em;
+}
+
+.description{
+    font-size: 1em;
+    margin: 0;
+}
+
+.sizing{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.paragraph{
+    font-size: 1.1em;
+}
+
+.profile_pic{
+    float: right;
+    padding: 0px;
+    height: 500px;
+    width: 450px;
+    border-radius: 100;
+}
+
+.pic{
+    float: right;
+    padding: 0px;
+    height: 100px;
+    width: 100px;
+    border-radius: 75%;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+}
+
+.box ul{
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer_allign li{
+    padding: 0 0.5em
+}
+
+.title_footer{
+    margin: 0 0.5em;
+}
+
+.square{
+    width: 50px;
+    height: 50px;
+}
+
+.rectangle{
+    width: 120px;
+    height: 50px;
+}
